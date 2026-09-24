@@ -1,0 +1,142 @@
+# 🐍 Python Loop Interview Questions & Answers
+
+A collection of **Python loop interview questions, concepts, and coding problems** for beginners preparing for Python interviews.
+
+This repository covers `for` loops, `while` loops, `range()`, `break`, `continue`, `pass`, nested loops, infinite loops, and common loop-based coding questions.
+
+---
+
+## 📚 Topics Covered
+
+* `for` loop
+* `while` loop
+* `range()`
+* `break`
+* `continue`
+* `pass`
+* Nested loops
+* Infinite loops
+* Loop with `else`
+* Counters and accumulators
+* Loop-based coding problems
+
+---
+
+# 1. What is a loop in Python?
+
+A loop is used to execute a block of code repeatedly.
+
+Python mainly provides two types of loops:
+
+```python
+for
+while
+```
+
+Example:
+
+```python
+for i in range(5):
+    print(i)
+```
+
+---
+
+# 2. What is the difference between `for` and `while` loops?
+
+### `for` loop
+
+A `for` loop is generally used when we want to iterate over a sequence or a known range of values.
+
+```python
+for i in range(5):
+    print(i)
+```
+
+### `while` loop
+
+A `while` loop continues executing as long as a condition is `True`.
+
+```python
+i = 0
+
+while i < 5:
+    print(i)
+    i += 1
+```
+
+---
+
+# 3. What is `range()` in Python?
+
+`range()` generates a sequence of numbers and is commonly used with `for` loops.
+
+Syntax:
+
+```python
+range(start, stop, step)
+```
+
+Example:
+
+```python
+for i in range(1, 6):
+    print(i)
+```
+
+Output:
+
+```text
+1
+2
+3
+4
+5
+```
+
+The `stop` value is not included.
+
+---
+
+# 4. What is the output?
+
+```python
+for i in range(5):
+    print(i)
+```
+
+### Answer
+
+```text
+0
+1
+2
+3
+4
+```
+
+`range(5)` starts from `0` and stops before `5`.
+
+---
+
+# 5. What is the output?
+
+```python
+for i in range(2, 10, 2):
+    print(i)
+```
+
+### Answer
+
+```text
+2
+4
+6
+8
+```
+
+The third argument `2` represents the step size.
+
+---
+
+#
