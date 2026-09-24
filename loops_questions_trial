@@ -1,0 +1,19 @@
+ Q1. What is a loop in Python?
+A loop is used to execute a block of code repeatedly until a particular condition is satisfied or until all items in a sequence have been processed.
+Python mainly has:
+1.for loop
+2. while loop
+
+Q2. What is the difference between for and while loops?
+A for loop is used when we know the number of iterations we have to do 
+#for loop
+for i in range(5):
+   print(i)
+A While loop is used when we want to continue execution as long as the condition is True.
+# while loop
+i = 0
+while i < 5:
+  print(i)
+  i += 1
+Q3. What is range()?
+range() generates a sequence of numbers, commonly used with for loops.
